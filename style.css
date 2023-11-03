@@ -1,0 +1,256 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  height: 400px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  position: relative;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+#ch1.parent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#ch1 .parent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+#ch1 .parent2 {
+  display: flex;
+  justify-content: flex-end;
+}
+#ch1 .box2 {
+  margin-right: 5px;
+}
+#ch2 .parent2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#ch2 .parent3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#ch3.parent {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+#ch3 .box {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+#ch4.box {
+  position: relative;
+}
+#ch4 .box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(61, 59, 59);
+}
+#ch5 .parent1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#ch5 .parent2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#ch6.parent {
+  width: 40%;
+  height: 250px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 100%;
+  transform: translate(-100%, 0%);
+  display: flex;
+}
+#ch6 .box {
+  height: 150px;
+}
+#ch6 .parent1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+#ch6 .parent2 {
+  display: flex;
+  justify-content: flex-start;
+}
+#ch7.parent {
+  width: 20%;
+  height: 250px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  position: relative;
+}
+#ch7 .parent1 {
+  position: absolute;
+  bottom: 0px;
+  left: 100%;
+  transform: translate(-100%, 0);
+}
+#ch8.parent {
+  width: 20%;
+  height: 250px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  position: relative;
+}
+#ch8 .parent1 {
+  float: right;
+}
+#ch9.parent {
+  width: 20%;
+  height: 300px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ch10.parent {
+  width: 30%;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+#ch10 .box {
+  margin: 20px;
+}
+#ch11.parent {
+  width: 20%;
+  height: 250px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  position: relative;
+}
+#ch11 .parent1 {
+  position: absolute;
+  bottom: 0px;
+  left: 100%;
+  transform: translate(-100%, 0);
+}
+#ch11 .parent1 .box {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(38, 9, 9);
+}
+#ch11 .parent2 {
+  position: absolute;
+  bottom: 0px;
+  left: 100%;
+  transform: translate(-100%, 0);
+}
+#ch11 .parent2 .box {
+  background-color: rgb(111, 100, 100);
+}
+#ch12.parent {
+  width: 20%;
+  height: 250px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  position: relative;
+}
+#ch12 .parent1 {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  z-index: 1;
+}
+#ch12 .parent1 .box {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(38, 9, 9);
+}
+#ch12 .parent2 {
+  position: absolute;
+  left: 30%;
+  top: 80%;
+  z-index: 10;
+}
+#ch12 .parent2 .box {
+  background-color: rgb(111, 100, 100);
+}
+#ch13 .parent2 .box {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  background-color: rgb(111, 100, 100);
+}
+#ch13 .parent3 .box {
+  position: absolute;
+  top: 30%;
+  left: 6%;
+}
+#ch13 .parent4 .box {
+  position: absolute;
+  top: 45%;
+  left: 9%;
+  background-color: rgb(111, 100, 100);
+}
+#ch13 .parent5 .box {
+  position: absolute;
+  top: 60%;
+  left: 12%;
+}
+#ch14.parent {
+  width: 20%;
+  height: 250px;
+  background-color: rgb(89, 73, 73);
+  color: white;
+  position: relative;
+  float: right;
+}
+#ch14 .parent1 {
+  position: absolute;
+  bottom: 0px;
+}
+#ch15.main {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  column-gap: 40px;
+}
+#ch15 .parent-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#ch15 .parent1 .box {
+  background-color: rgb(89, 73, 73);
+  height: 200px;
+  width: 200px;
+}
+#ch15 .parent-right {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: end;
+}
